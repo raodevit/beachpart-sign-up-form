@@ -1,0 +1,151 @@
+body{ background-color: #D0DB97;
+
+}
+.img
+{
+    -ms-flex-item-align: center;
+}
+.main{
+    text-align: center;
+    border: 0;
+    margin: 120px 40px 50px;
+    border-image: fill;
+   background-color: #3A7D44;
+   border-radius: 9px;
+   align-content: center;
+   
+    
+}
+.intro{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 8px;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #D0DB97;
+}
+
+.beach{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: lighter;
+    border: 0;
+   margin: 20px 15px;
+   padding: 8px 8px;
+    background-color: #D0DB97;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.pick{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: lighter;
+    border: 0;
+    margin: 20px 15px;
+    padding: 10px 20px;
+    background-color: #D0DB97;
+    border-radius: 8px;
+
+}
+
+.head
+{
+    border: solid #D0DB97
+    ;
+    background-color: #254D32;
+    margin: 35px 20px;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 100;
+    color: whitesmoke;
+    border-radius: 5px;
+   -webkit-text-stroke-color: 5px #09223b
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   ;
+
+}
+.button-62{
+
+  align-items: center;
+  background-color: #254D32;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  margin: 5px 10px 10px 10px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+
+
+.button-62:hover,
+.button-62:focus { 
+  background-color: #ecff1ce0;
+  color: #ecff1ce0;
+}
+
+.button-62:active {
+  background: #09223b;
+  color: #ecff1ce0;
+}
+
+.button-62:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: #ecff1ce0;
+}
+
+}
+input[type=text]{
+    background-color: #69B578 ;
+    border: 0;
+    border-radius: 4px;
+    padding: 2px 2px;
+    border: solid #ecff1ce0;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ecff1ce0;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
